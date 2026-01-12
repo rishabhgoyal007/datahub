@@ -344,7 +344,9 @@ def extract_dbt_exposures(
         owner = exposure_node.get("owner", {})
         depends_on = exposure_node.get("depends_on", {})
         # depends_on can have "nodes" and "macros" keys
-        depends_on_nodes = depends_on.get("nodes", []) if isinstance(depends_on, dict) else []
+        depends_on_nodes = (
+            depends_on.get("nodes", []) if isinstance(depends_on, dict) else []
+        )
 
         tags = exposure_node.get("tags", [])
         tags = [tag_prefix + tag for tag in tags]

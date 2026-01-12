@@ -921,7 +921,9 @@ class DBTExposure:
     description: Optional[str] = None
     url: Optional[str] = None
     maturity: Optional[str] = None  # high, medium, low
-    depends_on: List[str] = field(default_factory=list)  # list of upstream dbt node unique_ids
+    depends_on: List[str] = field(
+        default_factory=list
+    )  # list of upstream dbt node unique_ids
     tags: List[str] = field(default_factory=list)
     meta: Dict[str, Any] = field(default_factory=dict)
     dbt_package_name: Optional[str] = None
@@ -1427,7 +1429,9 @@ class DBTSourceBase(StatefulIngestionSourceBase):
         if self.config.entities_enabled.can_emit_exposures:
             exposures = self.load_exposures()
             if exposures:
-                logger.info(f"Creating dbt exposure metadata for {len(exposures)} exposures")
+                logger.info(
+                    f"Creating dbt exposure metadata for {len(exposures)} exposures"
+                )
                 yield from self.create_exposure_mcps(exposures, all_nodes_map)
 
     def _is_allowed_node(self, node: DBTNode) -> bool:
