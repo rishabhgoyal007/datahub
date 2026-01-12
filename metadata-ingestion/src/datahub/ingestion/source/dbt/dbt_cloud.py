@@ -10,6 +10,7 @@ import requests
 from pydantic import Field, model_validator
 
 from datahub.configuration.common import AllowDenyPattern, ConfigModel
+from datahub.ingestion.api.common import PipelineContext
 from datahub.ingestion.api.decorators import (
     SourceCapability,
     SupportStatus,
@@ -325,7 +326,7 @@ class DBTCloudSource(DBTSourceBase, TestableSource):
     report: DBTSourceReport  # nothing cloud-specific in the report
     _exposures: List[DBTExposure]
 
-    def __init__(self, config: DBTCloudConfig, ctx):
+    def __init__(self, config: DBTCloudConfig, ctx: PipelineContext):
         super().__init__(config, ctx)
         self._exposures = []
 
