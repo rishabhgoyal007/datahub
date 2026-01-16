@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-16T06:55:42.176565+00:00",
+  "generated_at": "2026-01-16T10:32:54.040709+00:00",
   "generated_by": "metadata-ingestion/scripts/capability_summary.py",
   "plugin_details": {
     "abs": {
@@ -3563,7 +3563,7 @@
         },
         {
           "capability": "OWNERSHIP",
-          "description": "Optionally enabled via configuration",
+          "description": "Optionally enabled via configuration (extract_ownership)",
           "subtype_modifier": null,
           "supported": true
         },
