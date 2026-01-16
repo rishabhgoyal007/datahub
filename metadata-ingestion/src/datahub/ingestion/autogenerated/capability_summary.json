@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-07T20:46:44.630014+00:00",
+  "generated_at": "2026-01-16T06:55:42.176565+00:00",
   "generated_by": "metadata-ingestion/scripts/capability_summary.py",
   "plugin_details": {
     "abs": {
@@ -3558,6 +3558,12 @@
         {
           "capability": "DOMAINS",
           "description": "Enabled by default",
+          "subtype_modifier": null,
+          "supported": true
+        },
+        {
+          "capability": "OWNERSHIP",
+          "description": "Optionally enabled via configuration",
           "subtype_modifier": null,
           "supported": true
         },
