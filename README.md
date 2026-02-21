@@ -59,7 +59,7 @@ HOSTED_DOCS_ONLY-->
 
 ---
 
-> 📣 DataHub Town Hall is the 4th Thursday at 9am US PT of every month - [add it to your calendar!](https://lu.ma/datahubevents/)
+> 📣 DataHub Town Hall is the 4th Thursday at 9 a.m. US PT of every month - [add it to your calendar!](https://lu.ma/datahubevents/)
 >
 > - Town-hall Zoom link: [zoom.datahubproject.io](https://zoom.datahubproject.io)
 > - [Meeting details](docs/townhalls.md) & [past recordings](docs/townhall-history.md)
@@ -69,11 +69,11 @@ HOSTED_DOCS_ONLY-->
 > - Read our Monthly Project Updates [here](https://medium.com/datahub-project/tagged/project-updates).
 > - Bringing The Power Of The DataHub Real-Time Metadata Graph To Everyone At DataHub: [Data Engineering Podcast](https://www.dataengineeringpodcast.com/acryl-data-datahub-metadata-graph-episode-230/)
 > - Check out our most-read blog post, [DataHub: Popular Metadata Architectures Explained](https://engineering.linkedin.com/blog/2020/datahub-popular-metadata-architectures-explained) @ LinkedIn Engineering Blog.
-> - Join us on [Slack](docs/slack.md)! Ask questions and keep up with the latest announcements.
+> - Join us on [Slack](docs/slack.md)! Ask questions and stay up to date with the latest announcements.
 
 ## Introduction
 
-DataHub is an open-source data catalog for the modern data stack. Read about the architectures of different metadata systems and why DataHub excels [here](https://engineering.linkedin.com/blog/2020/datahub-popular-metadata-architectures-explained). Also read our
+DataHub is an open-source data catalog for the modern data stack. Read about the architectures of different metadata systems and why DataHub excels [here](https://engineering.linkedin.com/blog/2020/datahub-popular-metadata-architectures-explained). Also, read our
 [LinkedIn Engineering blog post](https://engineering.linkedin.com/blog/2019/data-hub), check out our [Strata presentation](https://speakerdeck.com/shirshanka/the-evolution-of-metadata-linkedins-journey-strata-nyc-2019) and watch our [Crunch Conference Talk](https://www.youtube.com/watch?v=OB-O0Y6OYDE). You should also visit [DataHub Architecture](docs/architecture/architecture.md) to get a better understanding of how DataHub is implemented.
 
 ## Features & Roadmap
@@ -90,7 +90,7 @@ Please follow the [DataHub Quickstart Guide](https://docs.datahub.com/docs/quick
 
 ## Development
 
-If you're looking to build & modify datahub please take a look at our [Development Guide](https://docs.datahub.com/docs/developers).
+If you're looking to build & modify datahub, please take a look at our [Development Guide](https://docs.datahub.com/docs/developers).
 
 <p align="center">
 <a href="https://demo.datahub.com/">
@@ -104,7 +104,7 @@ If you're looking to build & modify datahub please take a look at our [Developme
 - [acryldata/datahub-actions](https://github.com/acryldata/datahub-actions): DataHub Actions is a framework for responding to changes to your DataHub Metadata Graph in real time.
 - [acryldata/datahub-helm](https://github.com/acryldata/datahub-helm): Helm charts for deploying DataHub on a Kubernetes cluster
 - [acryldata/meta-world](https://github.com/acryldata/meta-world): A repository to store recipes, custom sources, transformations and other things to make your DataHub experience magical.
-- [dbt-impact-action](https://github.com/acryldata/dbt-impact-action): A github action for commenting on your PRs with a summary of the impact of changes within a dbt project.
+- [dbt-impact-action](https://github.com/acryldata/dbt-impact-action): A GitHub action for commenting on your PRs with a summary of the impact of changes within a dbt project.
 - [datahub-tools](https://github.com/makenotion/datahub-tools): Additional python tools to interact with the DataHub GraphQL endpoints, built by Notion.
 - [business-glossary-sync-action](https://github.com/acryldata/business-glossary-sync-action): A github action that opens PRs to update your business glossary yaml file.
 - [mcp-server-datahub](https://github.com/acryldata/mcp-server-datahub): A [Model Context Protocol](https://modelcontextprotocol.io/) server implementation for DataHub.
